@@ -1,0 +1,26 @@
+{
+  "name": "simple-flow-control",
+  "version": "1.0.0",
+  "description": "Simple flow control.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*.js",
+    "lint": "./node_modules/jshint/bin/jshint lib/**"
+  },
+  "keywords": [
+    "Node",
+    "Flow",
+    "Control",
+    "Serial",
+    "Asynchronous",
+    "Synchronous"
+  ],
+  "author": "Janderson Martins <jandersonmartins10@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3"
+  }
+}
